@@ -8,7 +8,6 @@
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
-  Pressable,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -77,6 +76,7 @@ function App(): JSX.Element {
           </Section>
           <Text>Hello World!</Text>
           <Text>1</Text>
+          <Text>2</Text>
         </View>
       </ScrollView>
     </SafeAreaView>
