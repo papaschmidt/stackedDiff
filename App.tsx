@@ -76,7 +76,7 @@ function App(): JSX.Element {
             this to show a change
           </Section>
           <Text>Hello World!</Text>
-          <Text>1.2.3.4</Text>
+          <Text>1</Text>
         </View>
       </ScrollView>
     </SafeAreaView>
