@@ -80,6 +80,7 @@ function App(): JSX.Element {
             Edit <Text style={styles.highlight}>App.tsx</Text> I have edited
             this to show a change
           </Section>
+          <Text>Hello World!</Text>
           <Section title="See Your Changes">
             <ReloadInstructions />
           </Section>
