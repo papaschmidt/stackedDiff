@@ -75,6 +75,7 @@ function App(): JSX.Element {
             this to show a change
           </Section>
           <Text>Hello World!</Text>
+          <Text>This is a new line for a commit</Text>
         </View>
       </ScrollView>
     </SafeAreaView>
