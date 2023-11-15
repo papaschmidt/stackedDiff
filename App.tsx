@@ -71,15 +71,11 @@ function App(): JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
+          <Section title="Step two">
             Edit <Text style={styles.highlight}>App.tsx</Text> I have edited
             this to show a change
           </Section>
           <Text>Hello World!</Text>
-          <Text>This is a new line for a commit</Text>
-          <Pressable onPress={() => console.info('Clicked!')}>
-            Click Me
-          </Pressable>
         </View>
       </ScrollView>
     </SafeAreaView>
