@@ -8,6 +8,7 @@
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
+  Pressable,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -76,6 +77,9 @@ function App(): JSX.Element {
           </Section>
           <Text>Hello World!</Text>
           <Text>This is a new line for a commit</Text>
+          <Pressable onPress={() => console.info('Clicked!')}>
+            Click Me
+          </Pressable>
         </View>
       </ScrollView>
     </SafeAreaView>
